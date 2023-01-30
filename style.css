@@ -1,0 +1,132 @@
+body {
+    background-color: lightgrey;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/*Navigation bar style*/
+nav {
+    width: 100%;
+    background-color: rgb(20, 0, 34);
+    overflow: auto;
+}
+
+nav a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 25%;
+}
+nav a:hover {
+    background-color: darkslateblue;
+}
+
+
+
+
+header {
+    background-color: rgb(20, 0, 34);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+/*The style for the website's logo*/
+#logo {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.news {
+    width: 80%;
+    margin: 10px;
+    background-color: rgb(157, 161, 165);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+/*Contact form style*/
+#contactContainer {
+    width: 65%;
+    margin: 20px;
+    background-color: rgb(157, 161, 165);
+    border-color: black;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+input[type=text], [type=email] {
+    width: 100%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+label {
+    font-weight: bold;
+    font-family: Tahoma;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: blanchedalmond;
+    padding: 7px;
+    border-radius: 5px;
+}
+input[type=submit]:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+
+
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(20, 0, 34);
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
